@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/ad_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="商品详情"
+        android:textSize="30sp"
+        android:gravity="center">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/ad_iv"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/apple"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/ad_tv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+    <LinearLayout
+        android:id="@+id/ad_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="20dp">
+        <EditText
+            android:id="@+id/ad_et"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:inputType="number"
+            android:hint="请输入购买数量">
+
+        </EditText>
+        <Button
+            android:id="@+id/ad_bt"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="添加购物车"
+            android:backgroundTint="@color/black">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

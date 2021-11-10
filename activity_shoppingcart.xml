@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/ad_tv1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="购物车"
+        android:textSize="30sp"
+        android:gravity="center">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/ad_iv1"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/apple"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/shop_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+    //香蕉
+    <ImageView
+        android:id="@+id/ad_iv2"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/banana"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/shop_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+    //西瓜
+    <ImageView
+        android:id="@+id/ad_iv3"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/watermallon"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/shop_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+    //薯片
+    <ImageView
+        android:id="@+id/ad_iv4"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/potatochips"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/shop_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+    //巧克力
+    <ImageView
+        android:id="@+id/ad_iv5"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/chocolate"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/shop_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+    //吹风机
+    <ImageView
+        android:id="@+id/ad_iv6"
+        android:layout_width="250dp"
+        android:layout_height="200dp"
+        android:src="@drawable/hairdryer"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center">
+
+    </ImageView>
+    <TextView
+        android:id="@+id/shop_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center">
+
+    </TextView>
+            <Button
+                android:id="@+id/but_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="提交"
+                >
+
+            </Button>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

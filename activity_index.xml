@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="购物App">
+
+    </TextView>
+
+    <ImageButton
+        android:id="@+id/ap_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/apple"
+        >
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/ap_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/banana"
+        >
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/ap_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/watermallon"
+        >
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/ap_4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/potatochips"
+        >
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/ap_5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chocolate"
+        >
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/ap_6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/hairdryer"
+        >
+    </ImageButton>
+    <Button
+        android:id="@+id/bp_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="购物车">
+
+    </Button>
+    <Button
+        android:id="@+id/bp_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="订单">
+        
+    </Button>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
